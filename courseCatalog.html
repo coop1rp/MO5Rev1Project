@@ -9,6 +9,9 @@
 </head>
 <body>
   <header>
+
+
+
     <h1>Course courseCatalog</h1>
     <div class="details" >
       <a href="ivy-learn.png"><img src="ivy-learn.png" height="100" width="200" alt="IvyLearnLogo" class="floatleft"></a>	
@@ -22,6 +25,82 @@
       <a href="courseCatalog.html">Course Catalog</a>  &nbsp;
 	  <a href="Template.html">BlankBootstrap</a>  &nbsp;
       </nav>
+
+<!-- contact form -->
+  <!-- form-control, form-label, form-select, input-group, input-group-text -->
+  <section id="contact">
+    <div class="container-lg">
+      
+      <div class="text-center">
+        <h2>Find Courses</h2>
+        <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
+      </div>
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-6">
+          
+          <form>
+            <label for="container" class="form-label">Enter your CRN:</label>
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-fill text-secondary"></i>
+              </span>
+              <input type="text" id="CRN" class="form-control" placeholder="e.g. 12345" />
+            </div>
+
+            
+
+            <label for="courses" class="form-label">What is your Major?</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-chat-right-dots-fill text-secondary"></i>
+              </span>
+              <select class="form-select" id="subject">
+                <option value="pricing" selected>SDEV</option>
+                <option value="content">COBAL</option>
+                <option value="other">FORTRAN</option>
+              </select>
+            </div>
+
+            <label for="courses" class="form-label">What is the course you want?</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-chat-right-dots-fill text-secondary"></i>
+              </span>
+              <select class="form-select" id="subject">
+                <option value="pricing" selected>LOVE</option>
+                <option value="content">Motivation</option>
+                <option value="other">Wisdom</option>
+                <option value="other">Humor</option>
+              </select>
+            </div>
+
+            <label for="courses" class="form-label">What is your campus?</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-chat-right-dots-fill text-secondary"></i>
+              </span>
+              <select class="form-select" id="subject">
+                <option value="pricing" selected>Indianapoliis</option>
+                <option value="content">Bloomington</option>
+                <option value="other">Seymour</option>
+              </select>
+            </div>
+
+            
+            <div class="mb-4 mt-5 form-floating">
+              <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
+              <label for="query">Your query...</label>
+            </div>
+            <div class="mb-4 text-center">
+              <button type="submit" class="btn btn-secondary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
       <title>Available Courses</title>
 	<script src="quote.js"></script>
